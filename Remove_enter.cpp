@@ -17,7 +17,7 @@ int main() {
     SetConsoleOutputCP(CP_UTF8);
 
     while(true) {
-        cout << "Enter sentenses (ctrl+z to finish):啊\n";
+        cout << "Enter sentenses (ctrl+z to finish):\n";
         string s, total;
         while(getline(cin, s)){
             total += s;
